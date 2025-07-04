@@ -2,16 +2,16 @@ Document from: [google](https://www.w3schools.com/html/default.asp)
 Document from: [youtube](https://www.youtube.com/watch?v=0hfeNPM7piw&t=1308s)
 
 ## Basic Html
-The `<html>`element is the root element of an HTML page 
-The `<head>` element contains meta information about the HTML page
-The `<title>` element specifies a title for the HTML page //ชื่อเว็บที่ขึ้นบนแท็บบาร์
-The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-The `<h1>` element defines a largest heading
-The `<h6>` element defines a smallest heading
-The `<p>` element defines a paragraph
-The `<br>` element defines a line break(New lines).
-The `<hr>` element is used to separate content(เส้นขีดยาว)
-The<pre> element defines preformatted text.(เว้นตามที่เราพิมเป๊ะๆ)
+*The `<html>`element is the root element of an HTML page 
+*The `<head>` element contains meta information about the HTML page
+*The `<title>` element specifies a title for the HTML page //ชื่อเว็บที่ขึ้นบนแท็บบาร์
+*The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+*The `<h1>` element defines a largest heading
+*The `<h6>` element defines a smallest heading
+*The `<p>` element defines a paragraph
+*The `<br>` element defines a line break(New lines).
+*The `<hr>` element is used to separate content(เส้นขีดยาว)
+*The<pre> element defines preformatted text.(เว้นตามที่เราพิมเป๊ะๆ)
 
 *ex.* <h1>	My First Heading </h1>
     <p>	My first paragraph </p>
