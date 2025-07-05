@@ -25,12 +25,21 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 ## Style
 * The style attribute is used to add styles to an element, such as color, font, size, and more //กำหนดขนาด,สี,ฟอนต์
 
-<pre>
-- Use `background-color` for background color _
-- Use `color` for text colors                  |
-- Use `font-family` for text fonts             |-> CSS
-- Use `font-size` for text sizes               |
-- Use `text-align` for text alignment         _|
+<pre><b>All of this is CSS Attribute</b>
+- Use `background-color` for background color
+- Use `color` for text colors
+- Use `font-family` for text fonts
+- Use `font-size` for text sizes
+- Use `text-align` for text alignment
+- Use `text-decoration` for text decoration
+- Use `background-size` to cover
+- Use `background-attachment` to fixed
+- Use `background-repeat` to repeat
+- Use `border-radius` to get the borders get rounded corners
+- Use `float` to let the image float R or L
+- `border-spacing` is the space between each cell(default is 2px)
+- `padding` is the space between the cell edges and content
+- Add a background color on other line `td/th/tr:nth-child(even/odd)`zebra stripes
 </pre>
 
 * The `lang` attribute of the <html> tag declares the language of the Web page//ใช้กำหนดภาษาของhtml
@@ -70,13 +79,28 @@ ex. `<img src="myphoto.jpg" alt="My photo" width="300" border="3">` <br>
 <br>
 
 📌 ผลลัพธ์:<br>
-* รูปอยู่ในตารางที่มีกรอบ cellpadding="5" ช่วยเพิ่มช่องว่างระหว่างรูปกับกรอบ
+* รูปอยู่ในตารางที่มีกรอบ `cellpadding="5"` ช่วยเพิ่มช่องว่างระหว่างรูปกับกรอบ
 * วิธีนี้จะดูเป็นกล่องชัดเจนขึ้น ถ้าต้องการกรอบที่ใหญ่ขึ้นสามารถเพิ่ม `border="5" หรือ cellpadding="10"` ได้
-* ใช้ `border` กับ <img> → ง่ายและตรงไปตรงมา
-* ใช้ <table> → ได้กรอบชัดเจนกว่า และจัดรูปอยู่ตรงกลางได้ง่าย<br>
+* ใช้ `border` กับ `<img>` → ง่ายและตรงไปตรงมา
+* ใช้ `<table>` → ได้กรอบชัดเจนกว่า และจัดรูปอยู่ตรงกลางได้ง่าย<br>
 _**ใช้ CSS จะควบคุมสี กรอบ และมุมมนของรูปได้ เช่น border-radius และ border-color 😊**_
 
-<br>
+**Image Maps** => `<map>` tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more `<area>` tags.
+* The usemap value starts with a hash tag # followed by the name of the image map.
+* Create Image Map -> add a `<map>` element to create an image map, and is linked to the image by using the required `name` attribute.(have the same value as the `<img>`'s `usemap` attribute)Then, add the clickable areas using an `<area>` element.
+<pre>
+   `rect` - defines a rectangular region
+   `circle` - defines a circular region
+   `poly` - defines a polygonal region
+   `default` - defines the entire region
+</pre>
+_The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one for the y-axis.
+* Background Images use the HTML `style` attribute and the CSS `background-image`
+* If you want the entire page to have a background image,use `<body>`
+* `<picture>` allows you to display different pictures for different devices or screen sizes.
+
+
+<hr>
     
 ## Html tables
 * `<table>` Defines a table
@@ -89,6 +113,28 @@ _**ใช้ CSS จะควบคุมสี กรอบ และมุม�
 * `<thead>` Groups the header content in a table
 * `<tbody>`	Groups the body content in a table
 * `<tfoot>`	Groups the footer content in a table
+* `colspan` spans over two or more columns.
+* `rowspan` spans over two or more rows.
+
+**Table Borders** => CSS
+![Screenshot (12)](https://github.com/user-attachments/assets/0d78f598-fc22-4551-94e2-4a731da8c83d)
+
+<hr>
+
+## Html List
+* `<ul>`	Defines an unordered listv//doted
+   * The CSS `list-style-type:` property define the style of the list item marker.
+   * `disc` Sets the list item marker to a bullet (default)//black dot
+   * `circle` Sets the list item marker to a circle//white dot
+   * `square` Sets the list item marker to a square
+   * `none` The list items will not be marked
+* `<ol>`	Defines an ordered list//number(1 default)
+   * `<ol type="1/A/a/I/i">` Start with 1/A/a/I(upper Roman num)/i(lower Roman num)
+   *  ` start="?"` Start counting from type u choose
+* `<li>`	Defines a list item
+* `<dl>`	Defines a description list
+* `<dt>`	Defines a term in a description list
+* `<dd>`	Describes the term in a description list
 
 ## Html Formatting
 * `<b>` - Bold text
@@ -104,12 +150,16 @@ _**ใช้ CSS จะควบคุมสี กรอบ และมุม�
 
 ![alt text](formatting.png)
 
+<hr>
+
 ## Html Quotation
 ![alt text](quotation.png)
 
 <!--## Html comment-->
 **<!-- This is a comment -->**
 **<!-- <p>This is another paragraph </p> -->**
+
+<hr>
 
 ## Html Color
 **rgb(red, green, blue)** 
@@ -135,4 +185,69 @@ _**ใช้ CSS จะควบคุมสี กรอบ และมุม�
 **hsla(hue, saturation, lightness, alpha)**
 
 <hr>
+
+## HtmlStyles - CSS
+**Inline** - by using the style attribute inside HTML elements  ex. `<h1 style="color:blue;">A Blue Heading</h1>` <br>
+**Internal** - by using a `<style>` element in the `<head>` section <br>
+**External** - by using a `<link>` element to link to an external CSS file<br>
+* Use the HTML <head> element to store <style> and <link> elements
+* The CSS margin property defines a margin (space) outside the border.
+* The CSS padding property defines a padding (space) between the text and the border.
+* The CSS border property defines a border around an HTML element.
+  <hr>
+
+## HTML Links 
+* The HTML `<a>` tag defines a hyperlink. ex. `<a href="url">link text</a>`<br>
+* The target attribute specifies where to open the linked document.
+  <pre>
+   `_self` - Default. Opens the document in the same window/tab as it was clicked
+   `_blank` - Opens the document in a new window or tab//ขึ้นtabใหม่
+   `_parent` - Opens the document in the parent frame
+   `_top` - Opens the document in the full body of the window
+  </pre>
+**Absolute URLs vs. Relative URLs**
+  * Absolute URLs => a full web address.<br>
+  * Relative URLs =>A local link (a link to a page within the same website) is specified with a relative URL (without the `https://www` part).<br>
+  
+**Use an Image as a Link** => Just put the <img> tag inside the <a> tag.
+
+**Link to an Email Address** => Use mailto: inside the href attribute to create a link that opens the user's email program.
+
+**Button as a Link** =>`<button onclick="document.location='default.asp'">HTML Tutorial</button>`(Javascript).
+
+**Link Titles** => ใส่ชื่อให้ลิ้งก์<br>
+* Use the id attribute (id="value") to define bookmarks in a page
+* Use the href attribute (href="#value") to link to the bookmark
+
+<hr> 
+
+## HTML Favicon
+A favicon image is displayed to the left of the page title in the browser tab, like this:
+![image](https://github.com/user-attachments/assets/bffca851-d51a-4825-8f47-6bef90c0d15a)
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
