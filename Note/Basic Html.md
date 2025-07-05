@@ -48,7 +48,7 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 <hr>
 
 ## Html Links
-* Html Links ( <a> ) => The link's destination is specified in the href attribute.<br>
+* Html Links ( `<a>` ) => The link's destination is specified in the href attribute.<br>
 ex. `<a href="page2.html">P2</a>` // inline page2.html is a link that u want to connect, P2 is Name of a link
 
 ❌ สิ่งที่ HTML ไม่สามารถทำได้โดยตรง
@@ -198,7 +198,7 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 
 ## HTML Links 
 * The HTML `<a>` tag defines a hyperlink. ex. `<a href="url">link text</a>`<br>
-* The target attribute specifies where to open the linked document.
+* The `target` attribute specifies where to open the linked document.
   <pre>
    `_self` - Default. Opens the document in the same window/tab as it was clicked
    `_blank` - Opens the document in a new window or tab//ขึ้นtabใหม่
@@ -225,7 +225,7 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 A favicon image is displayed to the left of the page title in the browser tab, like this:
 ![image](https://github.com/user-attachments/assets/bffca851-d51a-4825-8f47-6bef90c0d15a)
 
-  
+<hr>  
   
 
 
