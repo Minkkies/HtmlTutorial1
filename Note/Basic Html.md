@@ -48,7 +48,6 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 <hr>
 
 ## Html Links
-
 * Html Links ( `<a>` ) => The link's destination is specified in the href attribute.<br>
 ex. `<a href="page2.html">P2</a>` // inline page2.html is a link that u want to connect, P2 is Name of a link
 
@@ -190,13 +189,11 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 ## HtmlStyles - CSS
 **Inline** - by using the style attribute inside HTML elements  ex. `<h1 style="color:blue;">A Blue Heading</h1>` <br>
 **Internal** - by using a `<style>` element in the `<head>` section <br>
-**External** - by using a `<link>` element to link to an external CSS file
-<br>
-* Use the HTML <head> element to store <style> and <link> elements.
+**External** - by using a `<link>` element to link to an external CSS file<br>
+* Use the HTML <head> element to store <style> and <link> elements
 * The CSS margin property defines a margin (space) outside the border.
 * The CSS padding property defines a padding (space) between the text and the border.
 * The CSS border property defines a border around an HTML element.
-
   <hr>
 
 ## HTML Links 
@@ -214,7 +211,7 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
   
 **Use an Image as a Link** => Just put the <img> tag inside the <a> tag.
 
-**Link to an Email Address** => Use `mailto:` inside the href attribute to create a link that opens the user's email program.
+**Link to an Email Address** => Use mailto: inside the href attribute to create a link that opens the user's email program.
 
 **Button as a Link** =>`<button onclick="document.location='default.asp'">HTML Tutorial</button>`(Javascript).
 
@@ -228,8 +225,7 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 A favicon image is displayed to the left of the page title in the browser tab, like this:
 ![image](https://github.com/user-attachments/assets/bffca851-d51a-4825-8f47-6bef90c0d15a)
 
-<hr> 
-  
+<hr>  
   
 
 
