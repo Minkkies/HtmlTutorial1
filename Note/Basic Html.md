@@ -46,6 +46,8 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 * The `lang` attribute of the <html> tag declares the language of the Web page//ใช้กำหนดภาษาของhtml
 * The `title` attribute defines some extra information about an element 
 
+* HTML for creating a checkbox is `<input type="checkbox">`=><input type="checkbox">
+
 <hr>
 
 ## Html Links
