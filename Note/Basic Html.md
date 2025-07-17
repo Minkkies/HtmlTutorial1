@@ -24,6 +24,7 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 
 ## Style
 * The style attribute is used to add styles to an element, such as color, font, size, and more //กำหนดขนาด,สี,ฟอนต์
+* ` bgcolor="..สี.." ` พื้นหลังทั้งหน้าเว็บ
 
 <pre><b>All of this is CSS Attribute</b>
 - Use `background-color` for background color
@@ -48,6 +49,7 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 <hr>
 
 ## Html Links
+
 * Html Links ( `<a>` ) => The link's destination is specified in the href attribute.<br>
 ex. `<a href="page2.html">P2</a>` // inline page2.html is a link that u want to connect, P2 is Name of a link
 
@@ -117,17 +119,19 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 * `rowspan` spans over two or more rows.
 
 **Table Borders** => CSS
-![Screenshot (12)](https://github.com/user-attachments/assets/0d78f598-fc22-4551-94e2-4a731da8c83d)
+
+![alt text](tableborder.jpg)
 
 <hr>
 
 ## Html List
-* `<ul>`	Defines an unordered listv//doted
+* `<ul>`	Defines an unordered list//doted
    * The CSS `list-style-type:` property define the style of the list item marker.
    * `disc` Sets the list item marker to a bullet (default)//black dot
    * `circle` Sets the list item marker to a circle//white dot
    * `square` Sets the list item marker to a square
    * `none` The list items will not be marked
+   
 * `<ol>`	Defines an ordered list//number(1 default)
    * `<ol type="1/A/a/I/i">` Start with 1/A/a/I(upper Roman num)/i(lower Roman num)
    *  ` start="?"` Start counting from type u choose
@@ -135,6 +139,28 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 * `<dl>`	Defines a description list
 * `<dt>`	Defines a term in a description list
 * `<dd>`	Describes the term in a description list
+
+**ex.**
+*  `<ol>`	Defines an ordered list
+    <OL TYPE = a>
+      <LI> Oranges </LI> 
+      <LI> Peaches </LI> 
+      <LI> Grapes </LI> 
+    </OL>
+* `<ul>`	Defines an unordered list ,disc
+   <ul list-style-type:disc>
+      <li> Oranges </li> 
+      <li> Peaches </li> 
+      <li> Grapes </li> 
+    </ul>
+* `<dl>`	Defines a description list
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+   </dl>
+    
 
 ## Html Formatting
 * `<b>` - Bold text
@@ -190,10 +216,11 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 **Inline** - by using the style attribute inside HTML elements  ex. `<h1 style="color:blue;">A Blue Heading</h1>` <br>
 **Internal** - by using a `<style>` element in the `<head>` section <br>
 **External** - by using a `<link>` element to link to an external CSS file<br>
-* Use the HTML <head> element to store <style> and <link> elements
+* Use the HTML <head> element to store `<style>` and `<link>` elements
 * The CSS margin property defines a margin (space) outside the border.
 * The CSS padding property defines a padding (space) between the text and the border.
 * The CSS border property defines a border around an HTML element.
+
   <hr>
 
 ## HTML Links 
@@ -209,9 +236,9 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
   * Absolute URLs => a full web address.<br>
   * Relative URLs =>A local link (a link to a page within the same website) is specified with a relative URL (without the `https://www` part).<br>
   
-**Use an Image as a Link** => Just put the <img> tag inside the <a> tag.
+**Use an Image as a Link** => Just put the `<img>` tag inside the `<a>` tag.
 
-**Link to an Email Address** => Use mailto: inside the href attribute to create a link that opens the user's email program.
+**Link to an Email Address** => Use `mailto:` inside the href attribute to create a link that opens the user's email program.
 
 **Button as a Link** =>`<button onclick="document.location='default.asp'">HTML Tutorial</button>`(Javascript).
 
@@ -222,12 +249,10 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 <hr> 
 
 ## HTML Favicon
-A favicon image is displayed to the left of the page title in the browser tab, like this:
+A favicon image is displayed to the left of the page title in the browser tab, like this:<br>
 ![image](https://github.com/user-attachments/assets/bffca851-d51a-4825-8f47-6bef90c0d15a)
 
-<hr>  
-  
-
+<hr>
 
 
 
