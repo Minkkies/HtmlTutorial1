@@ -46,7 +46,7 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 * The `lang` attribute of the <html> tag declares the language of the Web page//ใช้กำหนดภาษาของhtml
 * The `title` attribute defines some extra information about an element 
 
-* HTML for creating a checkbox is `<input type="checkbox">`=><input type="checkbox">
+
 
 <hr>
 
@@ -300,8 +300,28 @@ HTML has several semantic elements that define the different parts of a web page
 
 <hr>
 
+## HTML Tags
+
+* HTML for creating a checkbox is `<input type="checkbox">`=><input type="checkbox">
+* The `<input type="text">` defines a single-line text field. The default width of the text field is 20 characters.=><input type="text">
+* The HTML for a drop-down list (also known as a select list) is created using the `<select>` tag, with options defined using the `<option>` tag.<br>
+=><label for="cars">Choose a car:</label>
+   <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+   </select>
+
+* The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.<br>
+<textarea id="w3review" name="w3review" rows="4" cols="50">Type here</textarea>
 
 
+
+
+Look for more HTML TAG : [Click link](https://www.w3schools.com/tags/tag_input.asp)
+
+<hr>
 
 
 
