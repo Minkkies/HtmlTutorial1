@@ -223,7 +223,7 @@ _The coordinates for shape_ ="rect" come in pairs, one for the x-axis and one fo
 
   <hr>
 
-## HTML Links 
+ ## HTML Links 
 * The HTML `<a>` tag defines a hyperlink. ex. `<a href="url">link text</a>`<br>
 * The `target` attribute specifies where to open the linked document.
   <pre>
@@ -254,15 +254,49 @@ A favicon image is displayed to the left of the page title in the browser tab, l
 
 <hr>
 
+## HTML Block and Inline Elements
+The `<div>` element defines a division or a section in an HTML document,used as a container.<br>
+Here are the block-level elements in HTML:
+![alt text](block.png)
 
+This is a `<span>` element inside a paragraph.
+<span style="border: 1px solid Red">Hello World</span>
 
+The <b>class attribute</b> is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.<br>
+* The class attribute can be used on any HTML element.
+* To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:
+<!--
 
+HTML Div Element
 
+<style>
+div {
+  background-color: #FFF4A3;
+}
+</style>
+<div>I am a div</div>
+ถ้าประกาศไว้ข้างบนทุกตัวบล็อคที่ใส่ div จะมีสี-->
 
+<hr>
 
+## HTML Iframes
+An HTML iframe is used to display a web page within a web page.//เหมือนเว็บการ์ตูนที่เชื่อมเฟสไว้มุมขวาไว้ดูเพจที่แปล
+* The HTML `<iframe src=".." title="..">` tag specifies an inline frame.
+#Iframe - Target for a Link
+* The target attribute of the link must refer to the name attribute of the iframe
 
+<hr>
 
+## HTML JavaScript
+The `<script>` element either contains script statements, or it points to an external script file through the src attribute.
 
+<hr>
+
+## HTML Layout Elements
+HTML has several semantic elements that define the different parts of a web page:<br>
+![alt text](layout-1.png)
+
+<hr>
 
 
 
