@@ -41,6 +41,8 @@ ex. คำสั่งที่ใช้ขยายในคำสั่งอ�
 - `border-spacing` is the space between each cell(default is 2px)
 - `padding` is the space between the cell edges and content
 - Add a background color on other line `td/th/tr:nth-child(even/odd)`zebra stripes
+- cellspacing="15" ระยะห่างระหว่างกล่องกับกล่อง
+- cellpadding="0" ระยะห่างระหว่าง ข้อความกับกล่อง
 </pre>
 
 * The `lang` attribute of the <html> tag declares the language of the Web page//ใช้กำหนดภาษาของhtml
