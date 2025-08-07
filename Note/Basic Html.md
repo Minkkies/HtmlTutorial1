@@ -310,7 +310,9 @@ HTML has several semantic elements that define the different parts of a web page
 ## HTML Tags
 
 * HTML for creating a checkbox is `<input type="checkbox">`=><input type="checkbox">
-* The `<input type="text">` defines a single-line text field. The default width of the text field is 20 characters.=><input type="text">
+
+* The `<input type="text">` defines a single-line text field. The default width of the text field is 20 characters.=><input type="text"> //สำหรับช่องให้ user กรอกข้อความ
+
 * The HTML for a drop-down list (also known as a select list) is created using the `<select>` tag, with options defined using the `<option>` tag.<br>
 =><label for="cars">Choose a car:</label>
    <select name="cars" id="cars">
@@ -323,6 +325,13 @@ HTML has several semantic elements that define the different parts of a web page
 * The `<textarea>` HTML element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.<br>
 <textarea id="w3review" name="w3review" rows="4" cols="50">Type here</textarea>
 
+* `<form>` สำหรับเปิดตัว form หลัก (จะใช้หรือไม่ใช้ก็ได้ เดี๋ยวจะมีอธิบายเพิ่มเติมในการส่ง form อีกที)
+* `<input type='number'>` สำหรับช่องให้ user ใส่เลข
+<input type='number'>
+* `<input type='radio'>` สำหรับ radio ให้ user ติ้กเลือกได้
+<input type="radio">
+* `<input type='submit'>` ปุุ่มสำหรับให้ user มากดได้ เพื่อ submit form
+* `<button></button>` ปุุ่มสำหรับให้ user มากดได้ (ที่จะใช้เพื่อ submit form หรือไม่ใช้ก็ได้)
 
 
 
