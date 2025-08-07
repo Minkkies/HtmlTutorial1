@@ -1,1 +1,1 @@
-## You can read HTML Tutorial in Note Floder
+## You can read HTML Tutorial in Note Folder
